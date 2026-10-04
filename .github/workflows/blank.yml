@@ -1,4 +1,4 @@
-#name: AnDos PC VIRTUAL
+name: AnDos PC VIRTUAL
 
 on:
   workflow_dispatch:
@@ -214,4 +214,4 @@ jobs:
         while($true){
           Write-Host "PC ativo - $(Get-Date)"
           Start-Sleep -Seconds 60
-        } This is a basic workflow to help you get started with Actions
+        }
